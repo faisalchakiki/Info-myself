@@ -1,0 +1,74 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #eaeaea;
+  scroll-behavior: smooth;
+}
+nav h5 {
+  color: aliceblue;
+  letter-spacing: 5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.jumbotron {
+  border: 1px solid;
+  height: 100vh;
+}
+.jumbotron .box-content {
+  padding: 0;
+  background: linear-gradient(
+    to right,
+    #f31a16,
+    #f48fb1,
+    #6739b6,
+    #2196f3,
+    #26c6da,
+    #47df4f,
+    #eeff41,
+    #f9a825,
+    #ff5722
+  );
+}
+header {
+  height: 100vh;
+  color: black;
+}
+.pembatas .kata-kata {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding: 5px;
+  margin-bottom: 0;
+  font-style: italic;
+}
+.parallax {
+  background-image: url(asset/img/images.jfif);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section ul li {
+  list-style-type: none;
+  font-size: 1rem;
+}
+.box-about {
+  height: 100vh;
+}
+footer p {
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+@media screen and (max-width: 576px) {
+  .pembatas .kata-kata {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+    .box-about {
+      height: 100%;
+      padding: 20px 0;
+    }
+  }
