@@ -1,35 +1,22 @@
-body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: #eaeaea;
-  scroll-behavior: smooth;
-}
 nav h5 {
   color: aliceblue;
   letter-spacing: 5px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 .jumbotron {
-  border: 1px solid;
-  height: 100vh;
+  height: 90vh;
+  background-image: url(asset/img/bg-jumbotron.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.jumbotron .box-content {
-  padding: 0;
-  background: linear-gradient(
-    to right,
-    #f31a16,
-    #f48fb1,
-    #6739b6,
-    #2196f3,
-    #26c6da,
-    #47df4f,
-    #eeff41,
-    #f9a825,
-    #ff5722
-  );
-}
-header {
-  height: 100vh;
+header .box-content{
   color: black;
+  margin-top:-20%;
 }
 .pembatas .kata-kata {
   color: white;
@@ -40,7 +27,7 @@ header {
   font-style: italic;
 }
 .parallax {
-  background-image: url(asset/img/images.jfif);
+  background-image: url(asset/img/bg-about.jpeg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
